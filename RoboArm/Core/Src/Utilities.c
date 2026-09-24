@@ -1,0 +1,19 @@
+/*
+ * Utilities.c
+ *
+ *  Created on: Sep 19, 2026
+ *      Author: Tyson
+ */
+
+#include "Utilities.h"
+
+void Clocks_Init(void)
+{
+	RCC->AHB1ENR |= RCC_AHB1ENR_GPIOAEN;
+	RCC->AHB1ENR |= RCC_AHB1ENR_GPIOBEN;
+	RCC->AHB1ENR |= RCC_AHB1ENR_GPIOCEN;
+	RCC->AHB1ENR |= RCC_AHB1ENR_GPIODEN;
+	RCC->APB2ENR |= RCC_APB2ENR_ADC1EN;
+	RCC->APB1ENR |= RCC_APB1ENR_TIM3EN;
+	RCC->APB2ENR |= RCC_APB2ENR_SYSCFGEN;
+}

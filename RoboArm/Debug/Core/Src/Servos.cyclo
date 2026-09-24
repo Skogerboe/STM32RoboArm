@@ -1,0 +1,3 @@
+../Core/Src/Servos.c:12:6:VRX_Servo_Init	1
+../Core/Src/Servos.c:64:6:VRY_Servo_Init	1
+../Core/Src/Servos.c:69:6:Servos_Init	1

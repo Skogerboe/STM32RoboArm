@@ -1,0 +1,4 @@
+../Core/Src/Joystick.c:12:6:VRX_Init	4	static
+../Core/Src/Joystick.c:37:6:VRY_Init	4	static
+../Core/Src/Joystick.c:42:6:JoySW_Init	4	static
+../Core/Src/Joystick.c:68:6:Joystick_Init	8	static
